@@ -1,9 +1,4 @@
-<style>
-        body {
-            background-color: #2c3e50; /* Puedes usar nombres (red, blue) o códigos HEX */
-            color: white; /* Color del texto para que contraste */
-        }
-    </style>
+
 div.gallery {
   display: flex;
   flex-wrap: wrap;
