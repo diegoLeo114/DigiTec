@@ -27,8 +27,8 @@ body {
 
 #columna_principal {
   float: left;
-  width: 70%;
-  height: 700px;
+  width: 100%;
+  height: 900px;
   background-color: #EFD6FF;
 }
 
