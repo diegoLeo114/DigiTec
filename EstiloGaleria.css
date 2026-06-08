@@ -2,25 +2,42 @@
 div.gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
 }
+
 
 div.gallery-item {
-  margin: 15px;
-  border: 1px solid #ccc;
-  width: 180px;
+  width: 190px;
+  background-color: #ffffff;
+  border: 2px solid #e0dbf7; 
+  border-radius: 12px;       
+  overflow: hidden;          
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+  transition: all 0.3s ease; 
 }
 
+
 div.gallery-item:hover {
-  border: 1px solid #777;
+  border-color: #6034E3;     
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(96, 52, 227, 0.2); 
 }
+
 
 div.gallery-item img {
   width: 100%;
-  height: auto;
+  height: 140px;             
+  object-fit: cover;        
+  display: block;
 }
 
 div.gallery-item div.desc {
-  padding: 15px;
+  padding: 12px;
   text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
 }
